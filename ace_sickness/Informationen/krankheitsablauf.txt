@@ -1,0 +1,22 @@
+﻿Model - Vitamintabletten
+
+1. - Spieler bekommt Variable X (Körpertemp)
+2. - Es werden 4 Krankheiten a 5 Symptomen erstellt
+3. - Für jede Krankheit gibt es einen Schnellinjektor (Anzahl 4)
+4. - Ein "Allheilmittel" NICHT im Arsenal nur auf der Map finbar
+5. - Krankheitsablauf (Mückenstich)
+				> KURZER PPSchmerz -> 5min später Starke Schmerzen + geringe Körpertemp -> weiter 10min später PPBlack&White
+				-> weitere 5min später Erbrechen -> weitere 10min später Ohnmachtsanfälle
+6. - Krankheitsablauf (Schlangenbiss)
+				-> KURZER (länger als Mücke) PPSchmerz + Wunde am Bein -> weiter 10min später Starke Schmerzen + Ausdauer 50%
+				-> weitere 5min Humpelt -> weiter 15min Ohne Behandlung Ohnmacht -> 10min TOT
+
+7. - Krankheitsablauf (Giftefeu)
+
+
+8. - Krankheitsablauf (Hitzschlag)
+				->1min PPSchmerz -> 5min später Schwindel (PPShakeScreen) + Ausdauer = 50% -> weiter 10min später Starke Schmerzen + Fieber
+				-> weitere 5min Ausdauer = 15% -> weitere 10min später Ohnmachtig
+9. - Schnellinjektoren
+				-> Richtige wird verabreicht -> 15min Abschwächung
+				-> Falscher wird verabreicht -> Garnichts geschieht -> Schlangenbiss falsche = instadeath -> Mückenstich falsch = RTB
